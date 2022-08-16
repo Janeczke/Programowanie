@@ -1,0 +1,176 @@
+﻿<Window x:Class="Programowanie.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Programowanie"
+        mc:Ignorable="d"
+        Title="Organizer Narzędzi" Height="700" Width="1200">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto" Grid.Column="0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                </Grid.RowDefinitions>
+
+                <Button Grid.Column="0" Click="btnClick" Tag="0" Background="White">
+                    <Image x:Name="zdjecie0">
+                        <Image.Source>
+                            <BitmapImage DecodePixelWidth="600" UriSource="/zdjecia/biale.png" />
+                        </Image.Source>
+                    </Image>
+                </Button>
+
+                <Button Grid.Column="1" Click="btnClick" Tag="1" Background="White">
+                    <Image x:Name="zdjecie1">
+                        <Image.Source>
+                            <BitmapImage DecodePixelWidth="600" UriSource="/zdjecia/biale.png" />
+                        </Image.Source>
+                    </Image>
+                </Button>
+
+                <Button Grid.Column="2" Click="btnClick" Tag="2" Background="White">
+                    <Image x:Name="zdjecie2">
+                        <Image.Source>
+                            <BitmapImage DecodePixelWidth="600" UriSource="/zdjecia/biale.png" />
+                        </Image.Source>
+                    </Image>
+                </Button>
+
+                <Button Grid.Column="3" Click="btnClick" Tag="3" Background="White">
+                    <Image x:Name="zdjecie3">
+                        <Image.Source>
+                            <BitmapImage DecodePixelWidth="600" UriSource="/zdjecia/biale.png" />
+                        </Image.Source>
+                    </Image>
+                </Button>
+
+                <Button Grid.Row="1" Click="btnClick" Tag="4" Background="White">
+                    <Image x:Name="zdjecie4">
+                        <Image.Source>
+                            <BitmapImage DecodePixelWidth="600" UriSource="/zdjecia/biale.png" />
+                        </Image.Source>
+                    </Image>
+                </Button>
+
+                <Button Grid.Row="1" Grid.Column="1" Click="btnClick" Tag="5" Background="White">
+                    <Image x:Name="zdjecie5">
+                        <Image.Source>
+                            <BitmapImage DecodePixelWidth="600" UriSource="/zdjecia/biale.png" />
+                        </Image.Source>
+                    </Image>
+                </Button>
+
+                <Button Grid.Row="1" Grid.Column="2" Click="btnClick" Tag="6" Background="White">
+                    <Image x:Name="zdjecie6">
+                        <Image.Source>
+                            <BitmapImage DecodePixelWidth="600" UriSource="/zdjecia/biale.png" />
+                        </Image.Source>
+                    </Image>
+                </Button>
+
+                <Button Grid.Row="1" Grid.Column="3" Click="btnClick" Tag="7" Background="White">
+                    <Image x:Name="zdjecie7">
+                        <Image.Source>
+                            <BitmapImage DecodePixelWidth="600" UriSource="/zdjecia/biale.png" />
+                        </Image.Source>
+                    </Image>
+                </Button>
+
+                <Button Grid.Row="2" Grid.Column="0" Click="btnClick" Tag="8" Background="White">
+                    <Image x:Name="zdjecie8">
+                        <Image.Source>
+                            <BitmapImage DecodePixelWidth="600" UriSource="/zdjecia/biale.png" />
+                        </Image.Source>
+                    </Image>
+                </Button>
+
+                <Button Grid.Row="2" Grid.Column="1" Click="btnClick" Tag="9" Background="White">
+                    <Image x:Name="zdjecie9">
+                        <Image.Source>
+                            <BitmapImage DecodePixelWidth="600" UriSource="/zdjecia/biale.png" />
+                        </Image.Source>
+                    </Image>
+                </Button>
+
+                <Button Grid.Row="2" Grid.Column="2" Click="btnClick" Tag="10" Background="White">
+                    <Image x:Name="zdjecie10">
+                        <Image.Source>
+                            <BitmapImage DecodePixelWidth="600" UriSource="/zdjecia/biale.png" />
+                        </Image.Source>
+                    </Image>
+                </Button>
+
+                <Button Grid.Row="2" Grid.Column="4" Click="btnClick" Tag="11" Background="White">
+                    <Image x:Name="zdjecie11">
+                        <Image.Source>
+                            <BitmapImage DecodePixelWidth="600" UriSource="/zdjecia/biale.png" />
+                        </Image.Source>
+                    </Image>
+                </Button>
+
+                <Button Grid.Row="3" Grid.Column="0" Click="btnClick" Tag="12" Background="White">
+                    <Image x:Name="zdjecie12">
+                        <Image.Source>
+                            <BitmapImage DecodePixelWidth="600" UriSource="/zdjecia/biale.png" />
+                        </Image.Source>
+                    </Image>
+                </Button>
+
+                <Button Grid.Row="3" Grid.Column="1" Click="btnClick" Tag="13" Background="White">
+                    <Image x:Name="zdjecie13">
+                        <Image.Source>
+                            <BitmapImage DecodePixelWidth="600" UriSource="/zdjecia/biale.png" />
+                        </Image.Source>
+                    </Image>
+                </Button>
+
+                <Button Grid.Row="3" Grid.Column="2" Click="btnClick" Tag="14" Background="White">
+                    <Image x:Name="zdjecie14">
+                        <Image.Source>
+                            <BitmapImage DecodePixelWidth="600" UriSource="/zdjecia/biale.png" />
+                        </Image.Source>
+                    </Image>
+                </Button>
+
+                <Button Grid.Row="3" Grid.Column="3" Click="btnClick" Tag="15" Background="White">
+                    <Image x:Name="zdjecie15">
+                        <Image.Source>
+                            <BitmapImage DecodePixelWidth="600" UriSource="/zdjecia/biale.png" />
+                        </Image.Source>
+                    </Image>
+                </Button>
+            </Grid>
+        </ScrollViewer>
+
+        <Grid Grid.Column="1" Background="lightgray">
+            <StackPanel Margin="10">
+                <ToolBar x:Name="MyToolBar">
+                </ToolBar>
+                <ToolBar>
+                    <Button Content="Odłóż" Command="ApplicationCommands.Copy" Height="23" Width="75"/>
+                    <Button Content="Kombinerki" Height="23" Width="120"  />
+                    <Button Content="Śrubokręt" Height="23" Width="120"  />
+                    <Button Content="Klucz francuski " Height="23" Width="120"  />
+                    <Button Content="Dłuto" Height="23" Width="120"  />
+                    <Button Content="Młotek" Height="23" Width="120" />
+                    <Button Content="Klucze nasadowe" Height="23" Width="120"  />
+                </ToolBar>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
